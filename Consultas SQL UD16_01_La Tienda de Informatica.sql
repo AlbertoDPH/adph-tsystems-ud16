@@ -46,15 +46,4 @@ UPDATE articulos SET PRECIO = PRECIO*0.9 WHERE CODIGO >0;
 UPDATE articulos SET PRECIO = PRECIO-10 WHERE PRECIO >=120;
 
 -- Activamos el modo seguro
-SET SQL_SAFE_UPDATES = 1; 
-
-
-
-
-
-
-
-
-
-
-
+SET SQL_SAFE_UPDATES = 1;
